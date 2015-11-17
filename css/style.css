@@ -1,0 +1,123 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.name-section {
+  height: 300px;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.express {
+  position: relative;
+  top: 65px;
+}
+.express img {
+  position: relative;
+  bottom: 25px;
+}
+.sass p {
+  position: relative;
+  top: 20px;
+}
+.npm img {
+  position: relative;
+  top: 25px;
+}
+.npm p {
+  position: relative;
+  top: 55px;
+}
+.icons {
+  width: 80%;
+}
+.words {
+  color: #00b0ff;
+}
+.profile-pic-container {
+  position: relative;
+  top: 0px;
+  left: 25px;
+  width: 240px;
+  height: 240px;
+  border-radius: 200px;
+  background-image: url("../pic.JPG");
+  border: 2px solid black;
+}
+
+.section-1 {
+  width: 100%;
+  position: relative;
+  left: -200px;
+}
+.name {
+  color: #00897b;
+  position: relative;
+  left: 400px;
+  bottom: 250px;
+  font-size: 50px;
+}
+.info {
+  position: relative;
+  left: 400px;
+  bottom: 250px;
+}
+.info-2 {
+  position: relative;
+  left: 400px;
+  bottom: 250px;
+}
+.info-3 {
+  position: relative;
+  left: 0px;
+  bottom: 200px;
+}
+footer.page-footer {
+  margin: 0;
+}
