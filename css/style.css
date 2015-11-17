@@ -46,6 +46,26 @@ p {
 .project-yo {
   width: 25%;
 }
+.footer-row {
+  height: 200px;
+}
+.info-3 {
+  position: absolute;
+  top: -250px;
+  width: 100%;
+}
+.yo-1 {
+  position: absolute;
+  left: 45%;
+}
+.yo-2 {
+  position: absolute;
+  left: 65%;
+}
+.yo-3 {
+  position: absolute;
+  left: 84%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
