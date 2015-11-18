@@ -5,7 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
-
+ ::-webkit-scrollbar {
+     display: none;
+ }
 nav ul a,
 nav .brand-logo {
   color: #444;
